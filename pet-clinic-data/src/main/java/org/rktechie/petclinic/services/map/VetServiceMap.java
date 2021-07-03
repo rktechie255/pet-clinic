@@ -1,11 +1,11 @@
 package org.rktechie.petclinic.services.map;
 
 import org.rktechie.petclinic.model.Vet;
-import org.rktechie.petclinic.services.BaseCrudService;
+import org.rktechie.petclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements BaseCrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
